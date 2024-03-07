@@ -1,7 +1,8 @@
 # Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions
 An efficient real-time CNN for diagnosing multiple bearing faults under various noise levels and time-varying rotational speeds with a Fisher-based spectral separability analysis method to elucidate its effectiveness.
 
-The material in this repository is provided to supplement the following paper: Jalonen, T., Al-Sa'd, M., Kiranyaz, S., & Gabbouj, M. (2024). Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions. In 25th IEEE International Conference on Industrial Technology.
+The material in this repository is provided to supplement the following paper:
+Jalonen, T., Al-Sa'd, M., Kiranyaz, S., & Gabbouj, M. (2024). Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions. In 25th IEEE International Conference on Industrial Technology. https://doi.org/10.48550/arXiv.2311.18547
 
 The MATLAB and Python scripts and data listed in this repository are used to produce results, and supporting figures illustrated in the paper.
 
