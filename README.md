@@ -8,16 +8,16 @@ The MATLAB and Python scripts and data listed in this repository are used to pro
 
 ## Data
 The repository contains data within each of these folders:
-### Dataset:
+### Dataset
 -   This folder holds the raw KAIST dataset. For copyright reasons, please download and extract the KAIST dataset files from here:
 -   Part 1: https://data.mendeley.com/datasets/vxkj334rzv/7
 -   Part 2: https://data.mendeley.com/datasets/x3vhp8t6hg/7
 -   Part 3: https://data.mendeley.com/datasets/j8d8pfkvj2/7
-### Results\KAIST Processed:
+### Results\KAIST Processed
 -   This folder holds the output of the MATLAB script *Main_preprocessing.m*; the preprocessed vibration segments for each SNR level and fault class.
-### Results\Computational Complexity:
+### Results\Computational Complexity
 -   It contains the output of the MATLAB script *Demo_3_computational_complexity.m*; the complexity analysis results for the proposed model.
-### Results\Performance:
+### Results\Performance
 -   This folder contains the performance results of the proposed model for each cross-validation fold
 
 ## MATLAB Scripts
