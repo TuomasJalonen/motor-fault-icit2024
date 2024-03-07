@@ -6,7 +6,7 @@ Jalonen, T., Al-Sa'd, M., Kiranyaz, S., & Gabbouj, M. (2024). Real-Time Vibratio
 
 The MATLAB and Python scripts and data listed in this repository are used to produce results, and supporting figures illustrated in the paper.
 
-## Data:
+## Data
 The repository contains data within each of these folders:
 ### Dataset:
 -   This folder holds the raw KAIST dataset. For copyright reasons, please download and extract the KAIST dataset files from here:
@@ -20,7 +20,7 @@ The repository contains data within each of these folders:
 ### Results\Performance:
 -   This folder contains the performance results of the proposed model for each cross-validation fold
 
-## MATLAB Scripts:
+## MATLAB Scripts
 The repository contains the following MATLAB scripts within its directory:
 ### Main_preprocessing.m
 -   This main script pre-processes the vibration signals in the KAIST dataset and saves the processed segments.
@@ -31,7 +31,7 @@ The repository contains the following MATLAB scripts within its directory:
 ### Demo_4_spectral_separability_analysis.m
 -   This demo script performs the Fisher-based spectral separability analysis and generates the results presented in Fig. 7.
 
-## Python Scripts:
+## Python Scripts
 ### xxx
 -   xxx
 ### yyy
