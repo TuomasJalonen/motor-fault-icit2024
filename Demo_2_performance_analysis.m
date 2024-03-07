@@ -37,7 +37,7 @@ clear; close all; clc;
 SNR = [25 20:-5:-5];
 Labels = {'Clean' '20 dB' '15 dB' '10 dB' '5 dB' '0 dB' '-5 dB'};
 yLabel = {'Accuracy (\%)' 'Precision (\%)' 'Recall (\%)' 'F1-Score (\%)'};
-fname  = {'Clean' '20dB' '15dB' '10dB' '5dB' '0dB' '-5dB'};
+fname  = {'clean' '20dB' '15dB' '10dB' '5dB' '0dB' '-5dB'};
 
 %% Our Results
 cnn_avg_perf = zeros(length(yLabel),length(SNR));
@@ -49,23 +49,10 @@ for i = 1:length(fname)
     cnn_avg_perf(:,i) = [val.avg_acc; val.avg_precisions; val.avg_recalls; val.avg_f1s];
     cnn_std_perf(:,i) = [val.std_acc; val.std_precisions; val.std_recalls; val.std_f1s];
 end
-
-%% Our Results
-% cnn_per = zeros(length(yLabel),length(SNR));
-% cnn_std = zeros(length(yLabel),length(SNR));
-% cnn_per(1,:) = [0.984 0.982369 0.975583 0.95622619 0.912 0.84 0.753];
-% cnn_per(2,:) = [0.984 0.98237 0.9756023 0.956387 0.913 0.84 0.751];
-% cnn_per(3,:) = [0.984 0.982378 0.97556678 0.956177 0.912 0.84 0.753];
-% cnn_per(4,:) = [0.984 0.98236 0.975569 0.95625188 0.912 0.84 0.752];
-% cnn_std(1,:) = [0.003 0.001117 0.002165 0.0050474 0.003 0.003 0.005];
-% cnn_std(2,:) = [0.003 0.001156 0.0022358 0.004859 0.004 0.002 0.007];
-% cnn_std(3,:) = [0.003 0.001144 0.00219 0.004979 0.004 0.003 0.006];
-% cnn_std(4,:) = [0.003 0.001149 0.002203 0.0049332 0.004 0.003 0.007];
-% cnn_cm  = zeros(4,4);
-% cnn_cm(1,:)  = [0.965 0.981 1.00 0.990];
-% cnn_cm(2,:)  = [0.824 0.873 0.998 0.955];
-% cnn_cm(3,:)  = [0.693 0.765 0.992 0.912];
-% cnn_cm(4,:)  = [0.543 0.694 0.956 0.819];
+cnn_confuse(1,:)  = [0.965 0.981 1.00 0.990];
+cnn_confuse(2,:)  = [0.824 0.873 0.998 0.955];
+cnn_confuse(3,:)  = [0.693 0.765 0.992 0.912];
+cnn_confuse(4,:)  = [0.543 0.694 0.956 0.819];
 
 %% PIResNet Results from:
 % Ni, Q., Ji, J. C., Halkon, B., Feng, K., & Nandi, A. K. (2023). Physics-Informed
