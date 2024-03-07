@@ -1,12 +1,14 @@
 # Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions
-An efficient real-time convolutional neural network (CNN) for diagnosing multiple bearing faults under various noise levels and time-varying rotational speeds and a Fisher-based spectral separability analysis method to elucidate the effectiveness of the designed CNN model.
+An efficient real-time CNN for diagnosing multiple bearing faults under various noise levels and time-varying rotational speeds with a Fisher-based spectral separability analysis method to elucidate its effectiveness.
+
 The material in this repository is provided to supplement the following paper: Jalonen, T., Al-Sa'd, M., Kiranyaz, S., & Gabbouj, M. (2024). Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions. In 25th IEEE International Conference on Industrial Technology.
+
 The MATLAB and Python scripts and data listed in this repository are used to produce results, and supporting figures illustrated in the paper.
 
 ## Data:
 The repository contains data within each of these folders:
 ### Dataset:
--   This folder holds the raw KAIST dataset. For copyright reasons, please donwload and extract the KAIST dataset files from here:
+-   This folder holds the raw KAIST dataset. For copyright reasons, please download and extract the KAIST dataset files from here:
 -   Part 1: https://data.mendeley.com/datasets/vxkj334rzv/7
 -   Part 2: https://data.mendeley.com/datasets/x3vhp8t6hg/7
 -   Part 3: https://data.mendeley.com/datasets/j8d8pfkvj2/7
@@ -26,7 +28,7 @@ The repository contains the following MATLAB scripts within its directory:
 ### Demo_3_computational_complexity.m
 -   This script generates the computational complexity analysis results in Fig. 6.
 ### Demo_4_spectral_separability_analysis.m
--   This demo script performs the Fisher-based spectral separability analysis and generates the results present in Fig. 7.
+-   This demo script performs the Fisher-based spectral separability analysis and generates the results presented in Fig. 7.
 
 ## Python Scripts:
 ### xxx
