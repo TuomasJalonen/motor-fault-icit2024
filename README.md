@@ -15,10 +15,6 @@ The repository contains data within each of these folders:
 -   Part 3: https://data.mendeley.com/datasets/j8d8pfkvj2/7
 ### Results\KAIST Processed
 -   This folder holds the output of the MATLAB script *Main_preprocessing.m*; the preprocessed vibration segments for each SNR level and fault class.
-### Results\Computational Complexity
--   It contains the output of the MATLAB script *Demo_3_computational_complexity.m*; the complexity analysis results for the proposed model.
-### Results\Performance
--   This folder contains the performance results of the proposed model for each cross-validation fold
 
 ## MATLAB Scripts
 The repository contains the following MATLAB scripts within its directory:
@@ -32,9 +28,15 @@ The repository contains the following MATLAB scripts within its directory:
 -   This demo script performs the Fisher-based spectral separability analysis and generates the results presented in Fig. 7.
 
 ## Python Scripts
-### xxx
--   xxx
-### yyy
--   yyy
-### zzz
--   zzz
+### train.py
+-   This script is used for training the model and saving results.
+### utils.py
+-   This file contains utility functions.
+### generator.py
+-   This file contains a custom Keras generator, which reads .mat-files (Matlab).
+### t-sne.py
+-   This script is used for creating the t-sne results.
+### avg_cms.py
+-   This script is used for plotting the average confusion matrices of the 5-fold cross-validation.
+### monte_carlo_simulations.py
+-   This script is used for doing the Monte Carlo simulations.
