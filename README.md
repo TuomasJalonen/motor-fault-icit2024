@@ -28,6 +28,18 @@ The repository contains the following MATLAB scripts within its directory:
 -   This demo script performs the Fisher-based spectral separability analysis and generates the results presented in Fig. 7.
 
 ## Python Scripts
+1. Create an Anaconda environment from the environment.yml file:
+```
+conda env create -f environment.yml
+```
+2. Activate the environment:
+```
+conda activate myenv
+```
+3. Run train.py. You might need to adjust some filepaths in the scripts.
+```
+python3 train.py
+```
 ### train.py
 -   This script is used for training the model and saving results.
 ### utils.py
