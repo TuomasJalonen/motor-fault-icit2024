@@ -8,6 +8,7 @@ The MATLAB and Python scripts and data listed in this repository are used to pro
 
 ## Data
 The repository contains data within each of these folders:
+
 ### Dataset
 -   This folder holds the raw KAIST dataset. For copyright reasons, please download and extract the KAIST dataset files from here:
 -   Part 1: https://data.mendeley.com/datasets/vxkj334rzv/7
@@ -52,3 +53,15 @@ python3 train.py
 -   This script is used for plotting the average confusion matrices of the 5-fold cross-validation.
 ### monte_carlo_simulations.py
 -   This script is used for doing the Monte Carlo simulations.
+
+## Citation
+```
+@inproceedings{jalonen2024real,
+  title={Real-Time Vibration-Based Bearing Fault Diagnosis Under Time-Varying Speed Conditions},
+  author={Jalonen, Tuomas and Al-Sa'd, Mohammad and Kiranyaz, Serkan and Gabbouj, Moncef},
+  booktitle={2024 IEEE International Conference on Industrial Technology (ICIT)},
+  pages={1--7},
+  year={2024},
+  organization={IEEE}
+}
+```
